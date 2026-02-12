@@ -1,0 +1,96 @@
+═══════════════════════════════════════════════════════════════
+  LISTE DES PDFs À CRÉER POUR LE PORTFOLIO
+═══════════════════════════════════════════════════════════════
+
+📁 Dossier : public/documents/
+
+───────────────────────────────────────────────────────────────
+  1ÈRE ANNÉE (5 PDFs)
+───────────────────────────────────────────────────────────────
+
+☐ year1-1.pdf
+   Installation et configuration Windows Server 2022
+   (Active Directory, DNS, DHCP)
+
+☐ year1-2.pdf
+   Configuration réseau local (LAN)
+   (VLAN, TCP/IP, Cisco, Packet Tracer)
+
+☐ year1-3.pdf
+   Déploiement d'un serveur Web Apache
+   (Linux Ubuntu, SSL/TLS, Virtual Hosts)
+
+☐ year1-4.pdf
+   Sauvegarde et restauration de données
+   (Windows Server Backup, PowerShell)
+
+☐ year1-5.pdf
+   Supervision réseau avec PRTG
+   (SNMP, Monitoring, Alertes)
+
+───────────────────────────────────────────────────────────────
+  2ÈME ANNÉE (7 PDFs)
+───────────────────────────────────────────────────────────────
+
+☐ year2-1.pdf
+   Infrastructure virtualisée avec VMware ESXi
+   (vSphere, Virtualisation, HA)
+
+☐ year2-2.pdf
+   Sécurisation d'infrastructure avec pfSense
+   (Firewall, VPN, IDS/IPS, Snort)
+
+☐ year2-3.pdf
+   Conteneurisation d'applications avec Docker
+   (Docker Compose, Conteneurisation)
+
+☐ year2-4.pdf
+   Mise en place d'un serveur de messagerie Postfix
+   (Dovecot, SpamAssassin, ClamAV)
+
+☐ year2-5.pdf
+   Déploiement automatisé avec Ansible
+   (Automation, YAML, DevOps)
+
+☐ year2-6.pdf
+   Infrastructure Cloud avec AWS
+   (EC2, S3, VPC, IAM, Cloud)
+
+☐ year2-7.pdf
+   Système de ticketing avec GLPI
+   (ITIL, Ticketing, Gestion de parc, MySQL)
+
+───────────────────────────────────────────────────────────────
+  PROJETS PERSONNELS (2 PDFs)
+───────────────────────────────────────────────────────────────
+
+☐ personal-1.pdf
+   Serveur multimédia personnel (Plex)
+   (Raspberry Pi, Linux, Streaming, NAS)
+
+☐ personal-2.pdf
+   Lab de sécurité avec Kali Linux
+   (Metasploit, Nmap, Wireshark, Pentest)
+
+───────────────────────────────────────────────────────────────
+  ÉPREUVE E6 (déjà présent)
+───────────────────────────────────────────────────────────────
+
+✓ Cahier_des_Charges_StadiumCompany.pdf (dans public/)
+
+═══════════════════════════════════════════════════════════════
+  TOTAL : 14 PDFs à créer
+═══════════════════════════════════════════════════════════════
+
+📝 INSTRUCTIONS :
+1. Créez chaque PDF avec le nom EXACT indiqué
+2. Placez-les dans le dossier : public/documents/
+3. Rechargez votre navigateur
+4. Cliquez sur "Voir la documentation" sur chaque projet
+
+💡 CONSEIL :
+Vous pouvez créer les PDFs progressivement, un projet à la fois.
+Les boutons apparaîtront même si le PDF n'existe pas encore.
+
+
+
