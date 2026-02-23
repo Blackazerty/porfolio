@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Terminal } from 'lucide-react';
+import { Menu, X, Terminal, Linkedin, Github } from 'lucide-react';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,6 +16,10 @@ export default function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   const menuItems = [
     { path: '/accueil', label: 'Accueil' },
     { path: '/presentation', label: 'Présentation' },
@@ -25,6 +29,7 @@ export default function Navigation() {
     { path: '/epreuve-e6', label: 'Épreuve E6' },
     { path: '/veille', label: 'Veille Tech' },
     { path: '/certificats', label: 'Certificats' },
+    { path: '/contact', label: 'Contact' },
   ];
 
   return (
@@ -57,6 +62,27 @@ export default function Navigation() {
                 }`}></span>
               </Link>
             ))}
+
+            <div className="flex items-center space-x-3">
+              <a
+                href="https://www.linkedin.com/in/yanis-zidazi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://github.com/Blackazerty/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
+              >
+                <Github className="w-5 h-5" />
+              </a>
+            </div>
           </div>
 
           <button
@@ -85,6 +111,27 @@ export default function Navigation() {
                 {item.label}
               </Link>
             ))}
+
+            <div className="flex items-center gap-4 px-4 pt-2">
+              <a
+                href="https://www.linkedin.com/in/yanis-zidazi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://github.com/Blackazerty/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                className="text-gray-300 hover:text-cyan-400 transition-colors duration-200"
+              >
+                <Github className="w-5 h-5" />
+              </a>
+            </div>
           </div>
         </div>
       )}

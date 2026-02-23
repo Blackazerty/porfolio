@@ -9,6 +9,7 @@ import EpreuveE5Page from './pages/EpreuveE5Page';
 import EpreuveE6Page from './pages/EpreuveE6Page';
 import VeillePage from './pages/VeillePage';
 import CertificatesPage from './pages/CertificatesPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path="/epreuve-e6" element={<EpreuveE6Page />} />
       <Route path="/veille" element={<VeillePage />} />
       <Route path="/certificats" element={<CertificatesPage />} />
+      <Route path="/contact" element={<ContactPage />} />
     </Routes>
   );
 }
