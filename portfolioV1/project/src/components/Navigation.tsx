@@ -47,12 +47,12 @@ export default function Navigation() {
             <span className="text-white font-bold text-lg">YZ</span>
           </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-4">
             {menuItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-gray-300 hover:text-cyan-400 transition-colors duration-200 font-medium relative group ${
+                className={`text-gray-300 hover:text-cyan-400 transition-colors duration-200 font-medium relative group text-sm ${
                   location.pathname === item.path ? 'text-cyan-400' : ''
                 }`}
               >
@@ -63,7 +63,7 @@ export default function Navigation() {
               </Link>
             ))}
 
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-2 ml-2">
               <a
                 href="https://www.linkedin.com/in/yanis-zidazi/"
                 target="_blank"
