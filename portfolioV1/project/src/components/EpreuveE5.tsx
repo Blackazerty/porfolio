@@ -1,4 +1,4 @@
-import { Users, Award, Briefcase, FileText } from 'lucide-react';
+import { Briefcase, FileText } from 'lucide-react';
 
 export default function EpreuveE5() {
   const projects = [
@@ -92,6 +92,18 @@ export default function EpreuveE5() {
           </p>
         </div>
 
+        <div className="mb-12">
+          <h3 className="text-2xl md:text-3xl font-bold text-cyan-400 mb-4">Tableau de synthese</h3>
+          <a
+            href="/Tableau%20de%20synth%C3%A8se%20ZIDAZI%20Yanis.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan-300 hover:text-cyan-200 underline transition-colors duration-300"
+          >
+            Ouvrir le tableau de synthese
+          </a>
+        </div>
+
         {/* Projets professionnels */}
         <div className="mb-12">
           <h3 className="text-3xl font-bold text-cyan-400 mb-6 flex items-center">
@@ -114,21 +126,6 @@ export default function EpreuveE5() {
           </div>
         </div>
 
-        {/* Réalisations en milieu professionnel */}
-        <div className="mb-12">
-          <h3 className="text-3xl font-bold text-cyan-400 mb-6 flex items-center">
-            <Users className="w-8 h-8 mr-3" />
-            Réalisations en milieu professionnel
-          </h3>
-        </div>
-
-        {/* Portefeuille de Compétences */}
-        <div className="mb-12">
-          <h3 className="text-3xl font-bold text-cyan-400 mb-6 flex items-center">
-            <Award className="w-8 h-8 mr-3" />
-            Portefeuille de Compétences
-          </h3>
-        </div>
       </div>
     </section>
   );

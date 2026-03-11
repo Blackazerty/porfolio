@@ -1,4 +1,21 @@
+import { Briefcase } from 'lucide-react';
+
 export default function EpreuveE6() {
+  const projects = [
+    {
+      number: 1,
+      title: 'Création et intégration d\'un nouveau groupe d\'utilisateur dans l\'Active Directory',
+      description: 'L\'Active Directory est un annuaire LDAP (Lightweight Directory Access Protocol) pour les systèmes d\'exploitation Windows.',
+      summary: 'Ce projet m\'a permis de structurer l\'organisation des comptes, centraliser l\'authentification et améliorer la gestion des utilisateurs au sein du réseau de l\'entreprise.',
+    },
+    {
+      number: 2,
+      title: 'Intégration d\'un nouveau groupe d\'utilisateur dans l\'outil de gestion de ticket (GLPI)',
+      description: 'GLPI et OCS Inventory sont deux logiciels open source utilisés pour la gestion de parc informatique et la surveillance des actifs informatiques.',
+      summary: 'Dans ce projet, j\'ai configuré l\'intégration entre GLPI et OCS Inventory afin de centraliser la gestion des équipements, améliorer le suivi des incidents et fiabiliser l\'inventaire du parc informatique.',
+    },
+  ];
+
   return (
     <section className="min-h-screen bg-gradient-to-b from-black to-gray-900 py-20 px-4">
       <div className="container mx-auto max-w-6xl">
@@ -23,16 +40,40 @@ export default function EpreuveE6() {
           </p>
         </div>
 
+        {/* Projets pratiques */}
         <div className="mb-12">
-          <h3 className="text-2xl md:text-3xl font-bold text-cyan-400 mb-4">Tableau de synthese</h3>
-          <a
-            href="/Tableau%20de%20synth%C3%A8se%20ZIDAZI%20Yanis.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan-300 hover:text-cyan-200 underline transition-colors duration-300"
-          >
-            Ouvrir le tableau de synthese
-          </a>
+          <h3 className="text-3xl font-bold text-cyan-400 mb-6 flex items-center">
+            <Briefcase className="w-8 h-8 mr-3" />
+            Projets pratiques
+          </h3>
+          <div className="space-y-8">
+            {projects.map((project, index) => (
+              <div
+                key={index}
+                className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-8 border border-cyan-500/20 hover:border-cyan-500/50 transition-all duration-300"
+              >
+                {/* En-tête du projet */}
+                <div className="flex items-start justify-between mb-4">
+                  <div>
+                    <span className="inline-block bg-cyan-500/10 text-cyan-300 px-3 py-1 rounded-full text-sm font-semibold border border-cyan-500/30 mb-3">
+                      Projet {project.number}
+                    </span>
+                    <h4 className="text-2xl font-bold text-white">{project.title}</h4>
+                  </div>
+                </div>
+
+                {/* Description */}
+                <p className="text-gray-300 leading-relaxed mb-6">{project.description}</p>
+
+                {/* Résumé */}
+                {project.summary && (
+                  <div className="mb-6">
+                    <p className="text-gray-300 leading-relaxed">{project.summary}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
