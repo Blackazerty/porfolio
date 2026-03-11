@@ -1,7 +1,6 @@
 import { ReactNode } from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
-import FloatingContactButton from './FloatingContactButton';
 
 interface LayoutProps {
   children: ReactNode;
@@ -15,7 +14,6 @@ export default function Layout({ children }: LayoutProps) {
         {children}
       </main>
       <Footer />
-      <FloatingContactButton />
     </div>
   );
 }
