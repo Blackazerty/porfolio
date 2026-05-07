@@ -133,7 +133,16 @@ export default function EpreuveE6() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-cyan-300 hover:text-cyan-200 underline"
                       >
-                        E6 - Projet 1 _ SESSION 2026.pdf
+                        Active directory
+                      </a>
+                      <br />
+                      <a
+                        href="/Gestion%20et%20administration%20d%27une%20for%C3%AAt%20Active%20Directory.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-cyan-300 hover:text-cyan-200 underline mt-2"
+                      >
+                        Procédure
                       </a>
                     </div>
                   ) : (
@@ -146,7 +155,16 @@ export default function EpreuveE6() {
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2 text-cyan-300 hover:text-cyan-200 underline"
                         >
-                          E6 - Projet 2 _ SESSION 2026.pdf
+                            GLPI
+                        </a>
+                        <br />
+                        <a
+                          href="/Administration%20et%20gestion%20du%20patrimoine%20informatique%20de%20Stadiumcompagny%20(GLPI).pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-cyan-300 hover:text-cyan-200 underline mt-2"
+                        >
+                          Procédure
                         </a>
                       </div>
                     </>
