@@ -1,6 +1,7 @@
 import { Briefcase, Network, Package } from 'lucide-react';
 
 const projet1PdfPath = '/E6%20-%20Projet%201%20_%20SESSION%202026.pdf';
+const projet2PdfPath = '/E6%20-%20Projet%202%20_%20SESSION%202026.pdf';
 
 const projects = [
   {
@@ -126,38 +127,27 @@ export default function EpreuveE6() {
                   {project.number === 1 ? (
                     <div className="bg-gray-900/60 rounded-lg p-4 border border-gray-700/50">
                       <h5 className="text-sm font-semibold text-cyan-400 uppercase tracking-wider mb-3">Dossier PDF</h5>
-                      <iframe
-                        src={projet1PdfPath}
-                        title="E6 - Projet 1 - Session 2026"
-                        className="w-full h-[700px] rounded-md border border-gray-700/60"
-                      />
                       <a
                         href={projet1PdfPath}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block mt-3 text-cyan-300 hover:text-cyan-200 underline"
+                        className="inline-flex items-center gap-2 text-cyan-300 hover:text-cyan-200 underline"
                       >
-                        Ouvrir le PDF dans un nouvel onglet
+                        E6 - Projet 1 _ SESSION 2026.pdf
                       </a>
                     </div>
                   ) : (
                     <>
-                      {/* Compétences */}
-                      <div className="mb-5">
-                        <h5 className="text-sm font-semibold text-cyan-400 uppercase tracking-wider mb-3">Compétences &amp; Outils mobilisés</h5>
-                        <div className="flex flex-wrap gap-2">
-                          {project.skills.map((skill, i) => (
-                            <span key={i} className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-3 py-1 rounded-full text-sm">
-                              {skill}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-
-                      {/* Schéma explicatif */}
                       <div className="bg-gray-900/60 rounded-lg p-4 border border-gray-700/50">
-                        <h5 className="text-sm font-semibold text-cyan-400 uppercase tracking-wider mb-2">Schéma explicatif</h5>
-                        <p className="text-gray-400 text-sm italic">{project.schema}</p>
+                        <h5 className="text-sm font-semibold text-cyan-400 uppercase tracking-wider mb-3">Dossier PDF</h5>
+                        <a
+                          href={projet2PdfPath}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-cyan-300 hover:text-cyan-200 underline"
+                        >
+                          E6 - Projet 2 _ SESSION 2026.pdf
+                        </a>
                       </div>
                     </>
                   )}
