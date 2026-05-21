@@ -208,7 +208,7 @@ Projets/
 ## 📞 Support
 
 **Problème?**
-- Email: yanis.zidazi@mediaschool.me
+- Email: yanis.prv@outlook.com
 - Tel: 0767286123
 
 ---

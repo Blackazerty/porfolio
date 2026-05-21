@@ -154,7 +154,7 @@ portfolio2025
 
 ## 🚨 Besoin d'Aide?
 
-**Email:** yanis.zidazi@mediaschool.me
+**Email:** yanis.prv@outlook.com
 **Tel:** 0767286123
 
 **Documentation complète:** Voir `FILE_UPLOAD_GUIDE.md`

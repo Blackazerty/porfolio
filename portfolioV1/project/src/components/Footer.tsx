@@ -18,8 +18,8 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
-                    <a href="mailto:yanis.zidazi@mediaschool.me" className="text-white font-medium hover:text-cyan-400 transition-colors">
-                      yanis.zidazi@mediaschool.me
+                    <a href="mailto:yanis.prv@outlook.com" className="text-white font-medium hover:text-cyan-400 transition-colors">
+                      yanis.prv@outlook.com
                     </a>
                   </div>
                 </div>
