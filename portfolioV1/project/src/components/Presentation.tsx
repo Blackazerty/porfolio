@@ -23,7 +23,7 @@ export default function Presentation() {
               Je m'appelle Yanis ZIDAZI, étudiant en BTS Services Informatiques aux Organisations (SIO), option SISR. Je me forme à l'administration des systèmes et des réseaux, à la sécurisation des infrastructures et au support informatique.
             </p>
             <p>
-              Je réalise actuellement mon alternance au sein de l'entreprise Rely, joint-venture entre Technip Energies et John Cockerill Hydrogen, en tant que IT Support. Cette expérience me permet de développer des compétences techniques et professionnelles en environnement réel.
+              Je réalise actuellement mon alternance chez SERRYBAT, une PME spécialisée dans la rénovation énergétique, en tant que technicien support IT. Cette expérience me permet de développer mes compétences techniques et professionnelles en conditions réelles.
             </p>
             <p>
               Mon objectif est de poursuivre dans les domaines des systèmes, réseaux et de la cybersécurité, avec une approche rigoureuse, orientée sécurité et qualité de service.

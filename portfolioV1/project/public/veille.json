@@ -1,0 +1,121 @@
+[
+  {
+    "title": "Ghostwriter cible les entités gouvernementales ukrainiennes avec le logiciel malveillant de phishing Prometheus",
+    "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
+    "pubDate": "2026-05-22",
+    "source": "The Hacker News",
+    "summary": "Ghostwriter cible les entités gouvernementales ukrainiennes avec le logiciel malveillant Prometheus Phishing L'acteur menaçant aligné sur la Biélorussie connu sous le nom de Ghostwriter (alias UAC-0057 et UNC1151Conseil...."
+  },
+  {
+    "title": "À l’intérieur d’un draineur de crypto : comment le repérer avant qu’il ne vide votre portefeuille",
+    "link": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
+    "pubDate": "2026-05-21",
+    "source": "BleepingComputer",
+    "summary": "À l'intérieur d'un draineur de crypto : comment le repérer avant qu'il ne vide votre portefeuille. Les draineurs de crypto modernes ne piratent pas les portefeuilles. Ils incitent les utilisateurs à approuver les transac..."
+  },
+  {
+    "title": "TikTok, YouTube et Roblox font l'objet d'un examen minutieux, mais les barrières d'âge ne régleront pas la sécurité des enfants",
+    "link": "https://www.malwarebytes.com/blog/family-and-parenting/2026/05/tiktok-youtube-and-roblox-face-scrutiny-but-age-gates-wont-fix-child-safety",
+    "pubDate": "2026-05-21",
+    "source": "Malwarebytes",
+    "summary": "TikTok, YouTube et Roblox font l'objet d'un examen minutieux, mais les barrières d'âge ne régleront pas la sécurité des enfants. L'Ofcom affirme que TikTok et YouTube ne sont « pas assez sûrs » pour les enfants, mais sim..."
+  },
+  {
+    "title": "Le faux service de signature de logiciels malveillants Fox Tempest démantelé par Microsoft",
+    "link": "https://www.malwarebytes.com/blog/news/2026/05/fake-malware-signing-service-fox-tempest-dismantled-by-microsoft",
+    "pubDate": "2026-05-20",
+    "source": "Malwarebytes",
+    "summary": "Le faux service de signature de logiciels malveillants Fox Tempest démantelé par Microsoft Le service permet aux auteurs de logiciels malveillants de signer des fichiers malveillants avec des certificats frauduleux émis...."
+  },
+  {
+    "title": "Firefox 151 intègre de grandes améliorations de confidentialité dans une petite mise à jour",
+    "link": "https://www.malwarebytes.com/blog/privacy/2026/05/firefox-151-packs-big-privacy-upgrades-into-a-small-update",
+    "pubDate": "2026-05-20",
+    "source": "Malwarebytes",
+    "summary": "Firefox 151 regroupe d'importantes mises à niveau en matière de confidentialité dans une petite mise à jour. Firefox 151 ajoute des améliorations majeures en matière de confidentialité et corrige des vulnérabilités de sé..."
+  },
+  {
+    "title": "Vol de données Azure via le détournement de la réinitialisation de mots de passe Microsoft",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
+    "pubDate": "2026-05-19",
+    "source": "BleepingComputer",
+    "summary": "Le groupe Storm-2949 se fait passer pour le support informatique afin de piéger les employés disposant de privilèges élevés. Ils parviennent à faire valider de fausses requêtes MFA lors de la réinitialisation des mots de..."
+  },
+  {
+    "title": "Le nouveau clic de phishing : comment le consentement OAuth contourne la MFA",
+    "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+    "pubDate": "2026-05-19",
+    "source": "The Hacker News",
+    "summary": "Le nouveau clic de phishing : comment le consentement OAuth contourne la MFA En février 2026, une plateforme de phishing en tant que service (PhaaS) appelée EvilTokens a été mise en ligne. En cinq semaines, plus de 340 o..."
+  },
+  {
+    "title": "Biométrie, diagnostics et coordonnées bancaires exposés lors d'une violation majeure des soins de santé",
+    "link": "https://www.malwarebytes.com/blog/news/2026/05/biometrics-diagnoses-and-bank-details-exposed-in-major-healthcare-breach",
+    "pubDate": "2026-05-19",
+    "source": "Malwarebytes",
+    "summary": "La biométrie, les diagnostics et les coordonnées bancaires exposés lors d'une violation majeure des soins de santé NYC Health + Hospitals affirme que les attaquants ont accédé à ses systèmes pendant des mois via une comp..."
+  },
+  {
+    "title": "L'arnaque sur Facebook promet des boîtes de viande Aldi bon marché, mais vole les informations de paiement à la place",
+    "link": "https://www.malwarebytes.com/blog/scams/2026/05/facebook-scam-promises-cheap-aldi-meat-boxes-steals-payment-info-instead",
+    "pubDate": "2026-05-19",
+    "source": "Malwarebytes",
+    "summary": "L'arnaque sur Facebook promet des boîtes de viande Aldi bon marché, mais vole les informations de paiement à la place. Une fausse offre de « boîte de viande » Aldi diffusée sur Facebook incite les victimes à fournir des...."
+  },
+  {
+    "title": "Comment réduire l'exposition au phishing avant qu'il ne se transforme en perturbation des activités",
+    "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+    "pubDate": "2026-05-18",
+    "source": "The Hacker News",
+    "summary": "Comment réduire l'exposition au phishing avant qu'il ne se transforme en perturbation de l'activité Que se passe-t-il lorsqu'un e-mail de phishing semble suffisamment propre pour passer les contrôles de sécurité, mais su..."
+  },
+  {
+    "title": "La nouvelle approche déroutante de Meta en matière de confidentialité des discussions",
+    "link": "https://www.malwarebytes.com/blog/news/2026/05/metas-confusing-new-approach-to-chat-privacy",
+    "pubDate": "2026-05-15",
+    "source": "Malwarebytes",
+    "summary": "La nouvelle approche déroutante de Meta en matière de confidentialité des discussions. WhatsApp propose désormais des discussions IA qui disparaissent. Meta dit qu'il ne peut pas lire. Alors qu'Instagram vient de supprim..."
+  },
+  {
+    "title": "Pourquoi Malwarebytes bloque certaines redirections Yahoo Mail",
+    "link": "https://www.malwarebytes.com/blog/threat-intel/2026/05/why-malwarebytes-blocks-some-yahoo-mail-redirects",
+    "pubDate": "2026-05-14",
+    "source": "Malwarebytes",
+    "summary": "Pourquoi Malwarebytes bloque certaines redirections Yahoo Mail Certains utilisateurs de Yahoo Mail peuvent voir des alertes Malwarebytes répétées provoquées par des connexions en arrière-plan à des domaines tiers suspect..."
+  },
+  {
+    "title": "Signal renforce sa sécurité face aux attaques d'ingénierie sociale et de phishing",
+    "link": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
+    "pubDate": "2026-05-12",
+    "source": "BleepingComputer",
+    "summary": "L'application de messagerie intègre de nouvelles alertes pour contrecarrer les hackers russes se faisant passer pour le \"Support Signal\". Ces mesures introduisent des avertissements visuels pour ralentir les utilisateurs..."
+  },
+  {
+    "title": "Les faux résultats de recherche Claude attirent les utilisateurs Mac dans une attaque ClickFix",
+    "link": "https://www.malwarebytes.com/blog/news/2026/05/fake-claude-search-results-lure-mac-users-into-clickfix-attack",
+    "pubDate": "2026-05-12",
+    "source": "Malwarebytes",
+    "summary": "Les faux résultats de recherche Claude attirent les utilisateurs Mac dans une attaque ClickFix. Les chercheurs ont découvert une campagne ClickFix qui utilise de faux guides de configuration Claude pour inciter les utili..."
+  },
+  {
+    "title": "Analyse approfondie du fonctionnement des attaques ClickFix et FileFix",
+    "link": "https://www.bleepingcomputer.com/news/security/inside-a-real-clickfix-attack-how-this-social-engineering-hack-unfolds/",
+    "pubDate": "2025-07-31",
+    "source": "BleepingComputer",
+    "summary": "La méthode ClickFix manipule à l'insu de l'utilisateur son presse-papiers en dissimulant du code malveillant derrière de faux tests CAPTCHA. Une fois le code collé par la victime manipulée, les attaquants peuvent déploye..."
+  },
+  {
+    "title": "Marks & Spencer frappé par un ransomware suite à une attaque par ingénierie sociale",
+    "link": "https://www.bleepingcomputer.com/news/security/mands-confirms-social-engineering-led-to-massive-ransomware-attack/",
+    "pubDate": "2025-07-08",
+    "source": "BleepingComputer",
+    "summary": "L'enseigne britannique a subi une compromission majeure de son réseau menant au déploiement du ransomware DragonForce. Les pirates ont réussi leur coup en usurpant de façon sophistiquée l'identité d'un employé auprès d'u..."
+  },
+  {
+    "title": "Des hackers étatiques adoptent la tactique d'ingénierie sociale ClickFix",
+    "link": "https://www.bleepingcomputer.com/news/security/state-sponsored-hackers-embrace-clickfix-social-engineering-tactic/",
+    "pubDate": "2025-04-20",
+    "source": "BleepingComputer",
+    "summary": "Plusieurs groupes de pirates parrainés par des États utilisent de fausses pages d'erreur (ClickFix) pour tromper les utilisateurs. Ils incitent les victimes à copier et exécuter manuellement un script malveillant afin de..."
+  }
+]
