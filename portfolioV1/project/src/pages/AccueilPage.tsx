@@ -38,7 +38,7 @@ export default function AccueilPage() {
 
               {/* Description */}
               <p className="text-gray-400 text-lg leading-relaxed">
-                Passionné par les réseaux, les systèmes et la cybersécurité. Je recherche une opportunité pour mettre en pratique mes compétences et développer mon expertise technique.
+                Passionné par la cybersécurité. Je recherche une opportunité pour mettre en pratique mes compétences et développer mon expertise technique.
               </p>
 
               {/* Boutons */}
