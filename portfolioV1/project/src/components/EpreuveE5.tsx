@@ -62,10 +62,14 @@ export default function EpreuveE5() {
       name: 'Optimiser le réferencement du site web avec SEO (Search Engin Optimisation)',
       pdf: 'Optimiser le réferencement du site web avec SEO (Search Engin Optimisation).pdf'
     },
+    {
+      name: 'MISE EN PLACE D’UNE AUTHENTIFICATION RADIUS',
+      pdf: 'MISSION 6 _  MISE EN PLACE D’UNE AUTHENTIFICATION RADIUS.pdf'
+    },
   ];
 
   const handleOpenPDF = (pdfName: string) => {
-    window.open(`/${pdfName}`, '_blank');
+    window.open(`/${encodeURIComponent(pdfName)}`, '_blank');
   };
 
   return (
