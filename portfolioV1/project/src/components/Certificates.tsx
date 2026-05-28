@@ -132,6 +132,28 @@ export default function Certificates() {
           Certifications professionnelles et formations continues en cybersécurité et infrastructure
         </p>
 
+        <div className="mb-10 max-w-3xl mx-auto">
+          <div className="bg-gradient-to-r from-cyan-500/10 to-blue-600/10 border border-cyan-500/30 rounded-lg p-5 md:p-6">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+              <div>
+                <h3 className="text-lg md:text-xl font-semibold text-white">Presentation du projet</h3>
+                <p className="text-gray-300 text-sm mt-1">
+                  Consultez le support Google Slides associe a cette realisation.
+                </p>
+              </div>
+              <a
+                href="https://docs.google.com/presentation/d/1o5-ej259snSGIEHMiIfIUiwJBlQutzJdmUrmdKlTj1U/edit?slide=id.p5#slide=id.p5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-cyan-500/15 hover:bg-cyan-500/25 text-cyan-300 px-4 py-2 rounded-lg border border-cyan-500/40 transition-colors duration-300"
+              >
+                <ExternalLink className="w-4 h-4" />
+                <span>Voir la presentation</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
         {loading ? (
           <div className="flex justify-center items-center py-20">
             <div className="w-12 h-12 border-4 border-cyan-400 border-t-transparent rounded-full animate-spin"></div>

@@ -1,5 +1,75 @@
 [
   {
+    "title": "Le service de malware Android BTMOB génère des charges utiles de phishing personnalisées",
+    "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
+    "pubDate": "2026-05-28",
+    "source": "BleepingComputer",
+    "summary": "Le service de malware Android BTMOB génère des charges utiles de phishing personnalisées Un cheval de Troie d'accès à distance Android nommé BTMOB est proposé aux cybercriminels avec une interface de création pour générer des charges utiles de malware adaptées au leurre de phishing..."
+  },
+  {
+    "title": "JINX-0164 cible les entreprises de crypto-monnaie avec de faux leurres de recruteurs et des logiciels malveillants macOS",
+    "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+    "pubDate": "2026-05-28",
+    "source": "The Hacker News",
+    "summary": "JINX-0164 cible les entreprises de crypto-monnaie avec de faux leurres de recrutement et des logiciels malveillants macOS Une nouvelle campagne orchestrée par un acteur malveillant jusqu'alors non documenté a ciblé les organisations de crypto-monnaie dans le but de faciliter..."
+  },
+  {
+    "title": "Carnival confirme une violation de données affectant près de 6 millions de personnes",
+    "link": "https://www.malwarebytes.com/blog/data-breaches/2026/05/carnival-confirms-data-breach-impacting-nearly-6-million",
+    "pubDate": "2026-05-28",
+    "source": "Malwarebytes",
+    "summary": "Carnival confirme une violation de données affectant près de 6 millions de personnes. Le géant des croisières Carnival a subi une nouvelle violation de données, ShinyHunters affirmant avoir volé des données personnelles affectant près de 6 millions de personnes. Carnaval Cor..."
+  },
+  {
+    "title": "Comment fonctionne le kit de phishing Tycoon 2FA",
+    "link": "https://www.zataz.com/comment-fonctionne-le-kit-de-phishing-tycoon-2fa/",
+    "pubDate": "2026-05-28",
+    "source": "Zataz",
+    "summary": "Comment fonctionne le kit de phishing Tycoon 2FA Suivez ZATAZ dans Google News Favori Les techniques de phishing Tycoon 2FA permettent aux attaquants de contourner entièrement le processus de connexion. Bloquer ce type d..."
+  },
+  {
+    "title": "Les recommandations de AI Chatbot redirigent les utilisateurs vers des sites de logiciels malveillants de cryptojacking",
+    "link": "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
+    "pubDate": "2026-05-27",
+    "source": "The Hacker News",
+    "summary": "Les recommandations des chatbots IA redirigent les utilisateurs vers des sites de logiciels malveillants de cryptojacking Microsoft a mis en garde contre une campagne active de cryptojacking qui utilise les interactions des chatbots d'intelligence artificielle (IA) comme mécanisme de sur..."
+  },
+  {
+    "title": "Le kit de phishing Kali365 contourne MFA et vole les connexions Microsoft",
+    "link": "https://www.malwarebytes.com/blog/scams/2026/05/kali365-phishing-kit-bypasses-mfa-and-steals-microsoft-logins",
+    "pubDate": "2026-05-27",
+    "source": "Malwarebytes",
+    "summary": "Le kit de phishing Kali365 contourne MFA et vole les connexions Microsoft Le FBI a averti que les attaquants utilisent un nouveau kit de phishing pour obtenir un accès à long terme aux comptes Microsoft Outlook, Teams et OneDrive. Lorsque le B fédéral..."
+  },
+  {
+    "title": "De faux e-mails LinkedIn abusent d'Adobe pour suivre les victimes",
+    "link": "https://www.malwarebytes.com/blog/threat-intel/2026/05/fake-linkedin-emails-abuse-adobe-to-track-victims",
+    "pubDate": "2026-05-27",
+    "source": "Malwarebytes",
+    "summary": "De faux e-mails LinkedIn abusent d'Adobe pour suivre les victimes. Les phisheurs volent les informations d'identification LinkedIn tout en abusant d'Adobe Target pour suivre les victimes et les rediriger vers de vraies pages LinkedIn. Les cybercriminels abusent de l'infrastructure Adobe..."
+  },
+  {
+    "title": "Des pirates iraniens déploient MiniFast et MiniJunk V2 via le phishing et l'empoisonnement SEO",
+    "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+    "pubDate": "2026-05-26",
+    "source": "The Hacker News",
+    "summary": "Les pirates iraniens déploient MiniFast et MiniJunk V2 via le phishing et l'empoisonnement SEO L'acteur menaçant parrainé par l'État iranien connu sous le nom de Nimbus Manticore (alias Screening Serpens et UNC1549) a été attribué à une nouvelle campagne..."
+  },
+  {
+    "title": "Plus de 700 sites Web éducatifs et technologiques piratés dans le cadre d'une vaste campagne de malware ClickFix",
+    "link": "https://www.malwarebytes.com/blog/bugs/2026/05/700-education-and-tech-websites-hijacked-in-huge-clickfix-malware-campaign",
+    "pubDate": "2026-05-26",
+    "source": "Malwarebytes",
+    "summary": "Plus de 700 sites Web éducatifs et technologiques piratés dans le cadre d'une vaste campagne de malware ClickFix. Les pirates informatiques exploitent une faille du site Web Ghost CMS pour diffuser de fausses pages de vérification Cloudflare qui poussent les utilisateurs à infecter leur propre PC. Attaque..."
+  },
+  {
+    "title": "⚡ Récapitulatif hebdomadaire : failles Linux, Defender 0-Days, botnets de routeurs et chaos de la chaîne d'approvisionnement",
+    "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+    "pubDate": "2026-05-25",
+    "source": "The Hacker News",
+    "summary": "⚡ Récapitulatif hebdomadaire : défauts Linux, Defender 0-Days, botnets de routeurs et récapitulatif du chaos de la chaîne d'approvisionnement du lundi. Même désordre, nouvelle semaine. Un outil de développement sommaire a attiré l'attention des gens, de vieux bugs sont revenus d'entre les morts et des produits de sécurité d'une manière ou d'une autre..."
+  },
+  {
     "title": "Ghostwriter cible les entités gouvernementales ukrainiennes avec le logiciel malveillant de phishing Prometheus",
     "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
     "pubDate": "2026-05-22",
