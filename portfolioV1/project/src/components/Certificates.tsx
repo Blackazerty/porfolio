@@ -16,7 +16,7 @@ const fallbackCertificates: Certificate[] = [
     id: 'cert-1',
     name: 'MOOC ANSSI – Sensibilisation à la cybersécurité',
     organization: 'ANSSI (Agence Nationale de la Sécurité des Systèmes d\'Information)',
-    date: '2025-01',
+    date: '2026-01-16',
     description: 'Formation en ligne complète sur les principes fondamentaux de la cybersécurité. Certification obtenue avec succès.',
     icon: 'Shield',
     link: '/certification mooc ANSSI.pdf',
@@ -24,23 +24,23 @@ const fallbackCertificates: Certificate[] = [
     order_index: 1,
     file_url: '/certification mooc ANSSI.pdf',
     file_type: 'pdf',
-    created_at: '2025-01-01T00:00:00Z',
-    updated_at: '2025-01-01T00:00:00Z',
+    created_at: '2026-01-16T00:00:00Z',
+    updated_at: '2026-01-16T00:00:00Z',
   },
   {
     id: 'cert-2',
     name: 'CISCO - Introduction à la cybersécurité',
     organization: 'CISCO Networking Academy',
-    date: '2025-02',
+    date: '2026-05-28',
     description: 'Formation en cours sur les fondamentaux de la sécurité réseau et les principes CISCO. Status : En progression.',
     icon: 'Code',
     link: 'https://www.netacad.com/fr/courses/introduction-to-cybersecurity?courseLang=fr-FR',
     visible: true,
     order_index: 2,
-    file_url: '/certification CISCO intro.pdf',
+    file_url: '/CERTIF_CISCO_intro-cyber.pdf',
     file_type: 'pdf',
-    created_at: '2025-02-01T00:00:00Z',
-    updated_at: '2025-02-01T00:00:00Z',
+    created_at: '2026-05-28T00:00:00Z',
+    updated_at: '2026-05-28T00:00:00Z',
   },
   {
     id: 'cert-3',
@@ -73,6 +73,27 @@ export default function Certificates() {
       if (data.length === 0) {
         storage.setCertificates(fallbackCertificates);
         data = fallbackCertificates;
+      } else {
+        // Ensure stored certificate fields (file_url, date) are up-to-date with defaults
+        const migrated = data.map((c) => {
+          const fallback = fallbackCertificates.find(f => f.id === c.id);
+          if (!fallback) return c;
+          let updated = { ...c };
+          if (fallback.file_url && c.file_url !== fallback.file_url) {
+            updated.file_url = fallback.file_url;
+          }
+          if (fallback.date && c.date !== fallback.date) {
+            updated.date = fallback.date;
+            updated.updated_at = new Date().toISOString();
+          }
+          return updated;
+        });
+        // If migration changed anything, persist it
+        const changed = JSON.stringify(migrated) !== JSON.stringify(data);
+        if (changed) {
+          storage.setCertificates(migrated);
+          data = migrated;
+        }
       }
       const visible = data.filter(c => c.visible).sort((a, b) => a.order_index - b.order_index);
       setCertificates(visible);
