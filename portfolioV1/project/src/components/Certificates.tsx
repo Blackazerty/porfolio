@@ -12,8 +12,8 @@ const iconMap: { [key: string]: JSX.Element } = {
 
 // Certifications par défaut
 const fallbackCertificates: Certificate[] = [
-    date: '2026-05-28',
-    description: 'Formation complétée sur les fondamentaux de la sécurité réseau et les principes CISCO. Statut : Certification obtenue.',
+  {
+    id: 'cert-1',
     name: 'MOOC ANSSI – Sensibilisation à la cybersécurité',
     organization: 'ANSSI (Agence Nationale de la Sécurité des Systèmes d\'Information)',
     date: '2026-01-16',
@@ -32,8 +32,7 @@ const fallbackCertificates: Certificate[] = [
     name: 'CISCO - Introduction à la cybersécurité',
     organization: 'CISCO Networking Academy',
     date: '2026-05-28',
-    description: 'Formation en cours sur les fondamentaux de la sécurité réseau et les principes CISCO. Status : En progression.',
-    // Updated description reflects certificate obtained
+    description: 'Formation en cours sur les fondamentaux de la sécurité réseau et les principes CISCO. Certification obtenue avec succès.',
     icon: 'Code',
     link: 'https://www.netacad.com/fr/courses/introduction-to-cybersecurity?courseLang=fr-FR',
     visible: true,
