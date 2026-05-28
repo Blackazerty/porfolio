@@ -46,7 +46,7 @@ const fallbackCertificates: Certificate[] = [
     id: 'cert-3',
     name: 'CCNA',
     organization: 'CISCO Networking Academy',
-    date: '2025-06',
+    date: '2026-06',
     description: 'Certification professionnelle en cours de préparation. CCNA (Cisco Certified Network Associate) pour valider les compétences en infrastructure réseau.',
     icon: 'Award',
     link: 'https://www.netacad.com/courses/ccna-introduction-networks?courseLang=fr-FR',
@@ -54,8 +54,8 @@ const fallbackCertificates: Certificate[] = [
     order_index: 3,
     file_url: '/CCNA certification.pdf',
     file_type: 'pdf',
-    created_at: '2025-06-01T00:00:00Z',
-    updated_at: '2025-06-01T00:00:00Z',
+    created_at: '2026-06-01T00:00:00Z',
+    updated_at: '2026-06-01T00:00:00Z',
   },
 ];
 
