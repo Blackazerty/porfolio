@@ -12,8 +12,8 @@ const iconMap: { [key: string]: JSX.Element } = {
 
 // Certifications par défaut
 const fallbackCertificates: Certificate[] = [
-  {
-    id: 'cert-1',
+    date: '2026-05-28',
+    description: 'Formation complétée sur les fondamentaux de la sécurité réseau et les principes CISCO. Statut : Certification obtenue.',
     name: 'MOOC ANSSI – Sensibilisation à la cybersécurité',
     organization: 'ANSSI (Agence Nationale de la Sécurité des Systèmes d\'Information)',
     date: '2026-01-16',
@@ -33,6 +33,7 @@ const fallbackCertificates: Certificate[] = [
     organization: 'CISCO Networking Academy',
     date: '2026-05-28',
     description: 'Formation en cours sur les fondamentaux de la sécurité réseau et les principes CISCO. Status : En progression.',
+    // Updated description reflects certificate obtained
     icon: 'Code',
     link: 'https://www.netacad.com/fr/courses/introduction-to-cybersecurity?courseLang=fr-FR',
     visible: true,
@@ -84,6 +85,10 @@ export default function Certificates() {
           }
           if (fallback.date && c.date !== fallback.date) {
             updated.date = fallback.date;
+            updated.updated_at = new Date().toISOString();
+          }
+          if (fallback.description && c.description !== fallback.description) {
+            updated.description = fallback.description;
             updated.updated_at = new Date().toISOString();
           }
           return updated;
