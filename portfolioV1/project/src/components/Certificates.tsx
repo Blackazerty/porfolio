@@ -32,7 +32,7 @@ const fallbackCertificates: Certificate[] = [
     name: 'CISCO - Introduction à la cybersécurité',
     organization: 'CISCO Networking Academy',
     date: '2026-05-28',
-    description: 'Formation en cours sur les fondamentaux de la sécurité réseau et les principes CISCO. Certification obtenue avec succès.',
+    description: 'Formation sur les fondamentaux de la sécurité réseau et les principes CISCO. Certification obtenue avec succès.',
     icon: 'Code',
     link: 'https://www.netacad.com/fr/courses/introduction-to-cybersecurity?courseLang=fr-FR',
     visible: true,
